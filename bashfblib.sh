@@ -63,3 +63,9 @@ drawpixel()
 
 	dd if=${TEMP} of=${SCREEN_FB} bs=1 seek=${skip} count=${BYTE_PER_PIXEL} 2&> /dev/null
 }
+
+fblib_cleanup()
+{
+	rm ${TEMP}
+}
+}
