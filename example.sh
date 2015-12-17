@@ -12,3 +12,4 @@ for y in `seq $1 $2`; do
 	done
 done
 
+fblib_cleanup
