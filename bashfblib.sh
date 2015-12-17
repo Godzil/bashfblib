@@ -68,4 +68,3 @@ fblib_cleanup()
 {
 	rm ${TEMP}
 }
-}
